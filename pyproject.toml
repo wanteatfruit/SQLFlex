@@ -1,0 +1,10 @@
+[project]
+name = "sqlflex"
+version = "0.1"
+
+[tool.setuptools.packages.find]
+include = ["sqlflex", "sqlflex.*"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
